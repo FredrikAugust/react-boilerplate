@@ -40,8 +40,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "lint": "yarn run eslint src/**/*.tsx src/**/*.ts",
-    "lint-fix": "yarn run eslint src/**/*.tsx src/**/*.ts --fix"
+    "lint": "yarn run eslint src/**/*.{tsx,ts}",
+    "lint-fix": "yarn run eslint src/**/*.{tsx,ts} --fix"
   },
   "prettier": {
     "singleQuote": true,
